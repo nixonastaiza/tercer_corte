@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Guía DOM Completa</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+  <h1>DOM – Ejercicios</h1>
+
+  <!-- EJERCICIO 1 -->
+  <h2>Ejercicio 1: Acceso por ID</h2>
+  <div id="mi-elemento">Texto inicial</div>
+  <button id="btn1">Ejecutar Ejercicio 1</button>
+  <hr>
+
+  <!-- EJERCICIO 2 -->
+  <h2>Ejercicio 2: Acceso por Clase</h2>
+  <div class="mi-clase">Caja 1</div>
+  <div class="mi-clase">Caja 2</div>
+  <div class="mi-clase">Caja 3</div>
+  <button id="btn2">Ejecutar Ejercicio 2</button>
+  <hr>
+
+  <!-- EJERCICIO 3 -->
+  <h2>Ejercicio 3: Acceso por Etiqueta</h2>
+  <div>Original A</div>
+  <div>Original B</div>
+  <div>Original C</div>
+  <button id="btn3">Ejecutar Ejercicio 3</button>
+  <hr>
+
+  <!-- EJERCICIO 4 -->
+  <h2>Ejercicio 4: querySelector y querySelectorAll</h2>
+
+  <h3>Destacados</h3>
+  <div class="destacado">Destacado 1</div>
+  <div>No destacado</div>
+  <div class="destacado">Destacado 2</div>
+  <div class="destacado">Destacado 3</div>
+  <button id="ejercicio1">Resaltar destacados</button>
+
+  <h3>Menú</h3>
+  <nav id="menu">
+    <a href="#">Inicio</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+  </nav>
+  <button id="ejercicio2">Activar enlaces</button>
+
+  <h3>Imágenes</h3>
+  <img src="./vegetaa.jpg" alt="Imagen 1">
+  <!-- <img src="https://via.placeholder.com/80"> -->
+  <img src="./gokuu.jpg" alt="Imagen 2">
+  <button id="ejercicio3">Bordear imágenes</button>
+
+  <h3>Lista de tareas</h3>
+  <ul class="tareas">
+    <li>Estudiar</li>
+    <li>Ir al gimnasio</li>
+    <li>Estudiar JavaScript</li>
+    <li>Leer un libro</li>
+    <li>ver una serie</li>
+  </ul>
+  <button id="ejercicio4">Negrita en impares</button>
+
+  <h3>Checkbox</h3>
+  <label><input type="checkbox" checked> Opción A</label>
+  <label><input type="checkbox"> Opción B</label>
+  <label><input type="checkbox" checked> Opción C</label>
+  <label><input type="checkbox"> Opción D</label>
+  <button id="ejercicio5">Desmarcar seleccionados</button>
+
+  <hr>
+
+  <!-- EJERCICIO 5 -->
+  <h2>Ejercicio 5: Lista dinámica</h2>
+  <div id="lista-tareas"></div>
+  <button id="agregar">Agregar tarea</button>
+
+  <script src="app.js"></script>
+</body>
+</html>

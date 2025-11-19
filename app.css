@@ -1,0 +1,122 @@
+/* Fuente y estilo general */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f5f9;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  color: #234;
+  margin-bottom: 30px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #2b4c7e;
+}
+
+h3 {
+  color: #3a6ea5;
+}
+
+/* Contenedores */
+div, nav, ul {
+  margin-bottom: 15px;
+}
+
+/* Botones */
+button {
+  background: #3a6ea5;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 5px;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+button:hover {
+  background: #2d5682;
+}
+
+/* Bloques de ejemplo */
+#mi-elemento,
+.mi-clase,
+.tareas li,
+.destacado {
+  padding: 10px;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Clase destacado */
+.destacado {
+  border-left: 4px solid #ffaa3b;
+}
+
+/* Menú */
+#menu a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #3a6ea5;
+  font-weight: bold;
+  padding: 5px 8px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+#menu a:hover {
+  background: #e6eef5;
+}
+
+/* Clase activo */
+.activo {
+  background: #3a6ea5;
+  color: white !important;
+}
+
+/* Tareas */
+.tareas li {
+  background: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  list-style: none;
+  border-left: 3px solid #3a6ea5;
+}
+
+/* Inputs checkbox */
+label {
+  display: block;
+  margin-bottom: 5px;
+  padding: 6px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Contenedor dinámico */
+#lista-tareas ul {
+  padding-left: 20px;
+}
+
+#lista-tareas li {
+  background: #fff;
+  padding: 8px;
+  margin-bottom: 6px;
+  border-radius: 5px;
+  border-left: 3px solid #ffaa3b;
+}
+
+/* Imágenes */
+img {
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-right: 5px;
+}
